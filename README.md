@@ -9,6 +9,8 @@ This backend exercise involves building a Node.js/Express.js app that will serve
 
 I created the first 4 endpoints. Due to time constraint I decided to deliver half of the challenge. It should be enough I think to evaluate my skills. 
 
+Note: I just added getProfile auth middleware for the first endpoint as a POC. I did not include for the rest of endpoints, in the real world probably a middleware like this would return a token (JWT) after a successful API login
+
 I spent 5 hours and probably 2 hs thinking how to implement endpoint number 4 in a smart way to manage the transactions. Use of promises all and rollback in case of unexpected scenario.
 
 With more time, I would have added chai, sinon, to mock the DB and do unit tests and integration tests. Happy to show personal projects with good coverage using chai or jest and sinon.
